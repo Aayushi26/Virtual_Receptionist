@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'fs' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.10
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\Ignatiuz\Desktop\virtualR\package.json
+6 warn package.json virtualreceptionist@0.0.0 No README.md file found!
+7 verbose from cache C:\Users\Ignatiuz\Desktop\virtualR\package.json
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'fs', null ]
+10 silly cache add name=undefined spec="fs" args=["fs",null]
+11 verbose parsed url { pathname: 'fs', path: 'fs', href: 'fs' }
+12 silly lockFile 3f4bb586-fs fs
+13 verbose lock fs C:\Users\Ignatiuz\AppData\Roaming\npm-cache\3f4bb586-fs.lock
+14 silly lockFile 3f4bb586-fs fs
+15 verbose addNamed [ 'fs', '' ]
+16 verbose addNamed [ null, '' ]
+17 silly lockFile a107b96b-fs fs@
+18 verbose lock fs@ C:\Users\Ignatiuz\AppData\Roaming\npm-cache\a107b96b-fs.lock
+19 silly addNameRange { name: 'fs', range: '', hasData: false }
+20 verbose url raw fs
+21 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+22 verbose url resolved https://registry.npmjs.org/fs
+23 info trying registry request attempt 1 at 14:53:27
+24 http GET https://registry.npmjs.org/fs
+25 silly lockFile a107b96b-fs fs@
+26 error Error: SSL Error: CERT_UNTRUSTED
+26 error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:525:26)
+26 error     at ClientRequest.g (events.js:193:14)
+26 error     at ClientRequest.EventEmitter.emit (events.js:93:17)
+26 error     at HTTPParser.parserOnIncomingClient (http.js:1461:7)
+26 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+26 error     at CleartextStream.socketOnData (http.js:1366:20)
+26 error     at CleartextStream.CryptoStream._push (tls.js:526:27)
+26 error     at SecurePair.cycle (tls.js:880:20)
+26 error     at EncryptedStream.CryptoStream.write (tls.js:267:13)
+26 error     at Socket.ondata (stream.js:38:26)
+27 error If you need help, you may report this log at:
+27 error     <http://github.com/isaacs/npm/issues>
+27 error or email it to:
+27 error     <npm-@googlegroups.com>
+28 error System Windows_NT 6.2.9200
+29 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "fs"
+30 error cwd C:\Users\Ignatiuz\Desktop\virtualR
+31 error node -v v0.8.10
+32 error npm -v 1.1.62
+33 error code ESSL
+34 verbose exit [ 1, true ]
